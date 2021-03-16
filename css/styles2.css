@@ -1,0 +1,110 @@
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+@font-face {
+	font-family: 'lancelot';
+	src: url(../font/Lancelot/Lancelot-Regular.ttf) format('Truetype');
+}
+@font-face {
+	font-family: 'cormantGaramond_regular';
+	src: url('../font/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('Truetype');
+}
+
+body {
+    background-image: url( background.jpg);
+	 
+}
+
+
+#vlak1 {
+    width: 100%;
+    background-color: azure;
+    height: 400px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-content: center; 
+    
+    
+}
+
+ 
+}
+
+#vlak2 {
+    width: 100%;
+    background-color: beige;
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+
+   
+.first{
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+
+
+
+p {
+   font-family:'cormantGaramond_regular', serif;
+   font-size: 13pt;
+    text-align:center; 
+    
+}
+
+
+img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: beige; 
+    display: block;
+    margin: 0 auto;
+
+     
+}
+
+#container {
+    position: relative;
+    display: block;
+    width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+    
+
+
+    
+
+h1 {
+	font-family:'lancelot', serif;
+    font-size: 38pt;
+	text-align: center;
+    color:darkblue; 
+	
+}
+
+
+.myname {
+    font-family:'cormantGaramond_regular', serif;
+    color: red;
+    font-size: 15pt;
+    background-color: beige;
+    text-align: center;
+    padding: inherit;
+    margin-bottom: 50px;
+}
+
+
+ 
+.button {
+    float: right; 
+}
+
+.contentleft {
+    float: left; 
+}
+
